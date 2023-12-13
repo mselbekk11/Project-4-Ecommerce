@@ -97,4 +97,4 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 
 ## ERD Chart:
 
-![ERD Chart](https://res.cloudinary.com/dtjasyr7k/image/upload/v1702442248/Screenshot_2023-12-12_at_20.36.11_bxmkk9.png)
+![ERD Chart](https://res.cloudinary.com/dtjasyr7k/image/upload/v1702442437/Screenshot_2023-12-12_at_20.40.26_aqoind.png)
