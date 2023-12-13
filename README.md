@@ -33,6 +33,7 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 
 - VSCode: https://code.visualstudio.com/
 - Figma: https://www.figma.com/
+- LucidApp: https://lucid.app/
 
 ## User View Wireframes
 
@@ -93,3 +94,7 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 - Day 5: Reviews / Deploy to Production
 - Day 6: Testing
 - Day 7: Design & Project clean up
+
+## ERD Chart:
+
+![ERD Chart](https://res.cloudinary.com/dtjasyr7k/image/upload/v1702442248/Screenshot_2023-12-12_at_20.36.11_bxmkk9.png)
