@@ -1,6 +1,6 @@
-# Screen Splash
+# ScreenSplash
 
-Screen Splash is an open source MERN stack Ecommerce application. When entering the website, users are able to purchase various wallpapers that can be used on their computer and smartphone screens.
+ScreenSplash is an open source MERN stack Ecommerce application. When entering the website, users are able to purchase various wallpapers that can be used on their computer and smartphone screens.
 
 ## Project Brainstorm
 
@@ -82,14 +82,14 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 - As a user I want to review my order and then confirm my order.
 - As a user I want to place my order using my prefered payment method.
 - As a user I want to be able to download the wallpapers I have just purchased.
-- As a user I want to click my profile where I can review any orders made as well as change my personal information and email address. 
+- As a user I want to click my profile where I can review any orders made as well as change my personal information and email address.
 
 ## Project Sprint Breakdown:
 
 - Day 1: Starting the Project / Starting the Frontend / Serving & Fetching Data
-- Day 2: Starting MongoDB & Mongoose / Redux Toolkit & State Management 
+- Day 2: Starting MongoDB & Mongoose / Redux Toolkit & State Management
 - Day 3: Shopping Cart Functionality / Backend Authentication / Frontend Authentication
-- Day 4: Checkout Process / Admin Functionality 
+- Day 4: Checkout Process / Admin Functionality
 - Day 5: Reviews / Deploy to Production
-- Day 6: Testing 
-- Day 7: Design & Project clean up 
+- Day 6: Testing
+- Day 7: Design & Project clean up
