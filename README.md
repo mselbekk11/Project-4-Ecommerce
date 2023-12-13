@@ -1,6 +1,6 @@
-# ScreenSplash
+# SplashScreen.io
 
-ScreenSplash is an open source MERN stack Ecommerce application. When entering the website, users are able to purchase various wallpapers that can be used on their computer and smartphone screens.
+SplashScreen is an open source MERN stack Ecommerce application. When entering the website, users are able to purchase various wallpapers that can be used on their computer and smartphone screens.
 
 ## Project Brainstorm
 
@@ -75,7 +75,7 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 
 ## User Stories:
 
-- As a user I want to view the homepage and Browse the various Wallpapers ScreenSplash has to offer.
+- As a user I want to view the homepage and Browse the various Wallpapers SplashScreen has to offer.
 - As a user I want to view a wallpaper and see a description, price, reviews and be able to add to cart.
 - As a user I want to click my shopping cart, where I can review my items, increase / decrease the item amounts, remove items, and proceed to checkout.
 - As a user I want to enter my shipping information.
