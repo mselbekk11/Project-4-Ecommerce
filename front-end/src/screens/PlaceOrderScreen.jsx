@@ -18,7 +18,7 @@ const PlaceOrderScreen = () => {
   const [createOrder, { isLoading, error }] = useCreateOrderMutation();
 
   useEffect(() => {
-    if (!cart.shippingAddress) {
+    if (!cart.shippingAddress.address) {
       navigate('/shipping');
     }
     if (!cart.paymentMethod) {
