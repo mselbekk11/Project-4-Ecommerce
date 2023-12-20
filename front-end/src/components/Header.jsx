@@ -33,7 +33,7 @@ const Header = () => {
           <LinkContainer to="/">
             <Navbar.Brand>
             <img src={logo} alt="SplashScreen" />
-            SplashScreen
+            Splash Screen
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
