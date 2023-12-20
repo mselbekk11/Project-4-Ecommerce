@@ -12,6 +12,7 @@ import {
   usePayOrderMutation,
   useDeliverOrderMutation,
 } from '../slices/OrdersApiSlice';
+import { ListGroupItem } from 'react-bootstrap';
 
 
 const OrderScreen = () => {
@@ -104,10 +105,13 @@ const OrderScreen = () => {
 
   return isLoading ? <Loader /> : error ? <Message variant="danger" /> : (
     <>
-      <h1>Order {order._id}</h1>
       <Row>
           <Col md={8}>
           <ListGroup variant='flush'>
+          <ListGroupItem>
+
+      <h3>Order: {order._id}</h3>
+          </ListGroupItem>
             <ListGroup.Item>
               <h2>Shipping</h2>
               <p>
@@ -139,14 +143,16 @@ const OrderScreen = () => {
                 {order.paymentMethod}
               </p>
               {order.isPaid ? (
+                <>
                 <Message variant='success'>Paid on {order.paidAt}</Message>
+                </>
               ) : (
                 <Message variant='danger'>Not Paid</Message>
               )}
             </ListGroup.Item>
 
             <ListGroup.Item>
-              <h2>Order Items</h2>
+              <h2>Order Items</h2>                          
               {order.orderItems.length === 0 ? (
                 <Message>Order is empty</Message>
               ) : (
@@ -169,6 +175,19 @@ const OrderScreen = () => {
                         </Col>
                         <Col md={4}>
                           {item.qty} x ${item.price} = ${item.qty * item.price}
+                        </Col>
+                        <Col md={3}>
+                        {order.isPaid && item.name === 'Wallpaper 1' ? (
+                          <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 1</Button></a>
+                          ) : order.isPaid && item.name === 'Wallpaper 2' ? (
+                            <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 2</Button></a>
+                          ) : order.isPaid && item.name === 'Wallpaper 3' ? (
+                            <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 3</Button></a>
+                          ) : order.isPaid && item.name === 'Wallpaper 4' ?(
+                            <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 4</Button></a>
+                          ) : (
+                            <></>
+                          )}
                         </Col>
                       </Row>
                     </ListGroup.Item>
@@ -251,6 +270,16 @@ const OrderScreen = () => {
             ) }
             </ListGroup>
           </Card>
+
+          
+              {/* {order.isPaid ? (
+                <div className="download-card">
+                <a href="https://res.cloudinary.com/dtjasyr7k/image/upload/v1703049502/Dark_Layers_-_Desktop_-_7_dqiags.jpg" target='blank'><Button className='btn-block' type='button'>Download Desktop Wallpaper</Button></a>
+                <a href="https://res.cloudinary.com/dtjasyr7k/image/upload/v1703049499/Dark_Layers_-_Mobile_-_7_kljrvw.jpg" target='blank'><Button className='btn-block' type='button'>Download Mobile Wallpaper</Button></a>
+                </div>
+              ) : (
+                <></>
+              )} */}
           </Col>
       </Row>
     </>

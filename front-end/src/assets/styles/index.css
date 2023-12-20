@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
 main {
   min-height: 80vh;
 }
@@ -54,4 +56,134 @@ table th {
 
 .hero-bg {
   max-width: 100%;
+}
+
+.bg-primary {
+  background-color: #fff!important;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(255, 20, 20, 0.06);
+  background: url(https://res.cloudinary.com/dtjasyr7k/image/upload/v1703102179/Screenshot_2023-12-19_at_19.26_2_f4bfls.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 20px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.bg-primary .left {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-primary .right {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-primary img {
+  width: 500px;
+}
+
+.bg-primary h1 {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+}
+
+.bg-primary h2 {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+}
+
+.splash-logo {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.logo-font {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+}
+
+h2, h1 {
+  color: #000;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.download-card {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.download-card button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  .bg-primary {
+    grid-template-columns: 1fr;
+    gap: 0rem;
+    padding: 20px;
+  }
+
+  .bg-primary .left {
+    align-items: center;
+  }
+
+  .bg-primary .right {
+    align-items: center;
+  }
+
+  .bg-primary img {
+    width: 400px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .bg-primary img {
+    width: 350px;
+}
+
+.bg-primary {
+  height: 400px;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+  .bg-primary {
+    height: 350px;
+  }
+
+  .bg-primary img {
+    width: 250px;
+}
+.bg-primary h1 {
+  font-size: 1rem;
+}
+
+.bg-primary h2 {
+  font-size: 0.8rem;
+}
+
+
 }

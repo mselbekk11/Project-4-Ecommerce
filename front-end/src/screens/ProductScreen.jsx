@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { Form, Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
 import { useDispatch } from 'react-redux'
-import Rating from '../components/Rating'
+// import Rating from '../components/Rating'
 import Loader from '../components/Loader'
 import Message from '../components/Message';
 import { useGetProductDetailsQuery } from '../slices/productsApiSlice'
@@ -44,9 +44,9 @@ const ProductScreen = () => {
             <ListGroup.Item>
               <h3>{product.name}</h3>
             </ListGroup.Item>
-            <ListGroup.Item>
+            {/* <ListGroup.Item>
               <Rating value={product.rating} text={`${product.numReviews} reviews`} />
-          </ListGroup.Item>
+          </ListGroup.Item> */}
             <ListGroup.Item>
               Price: ${product.price}
             </ListGroup.Item>
@@ -71,7 +71,7 @@ const ProductScreen = () => {
                 </Row>
               </ListGroup.Item>
 
-              <ListGroup.Item>
+              {/* <ListGroup.Item>
                 <Row>
                   <Col>
                     Status:
@@ -80,7 +80,7 @@ const ProductScreen = () => {
                     <strong>{product.countInStock > 0 ? 'In Stock' : 'Out of Stock'}</strong>
                   </Col>
                 </Row>
-              </ListGroup.Item>
+              </ListGroup.Item> */}
 
               {product.countInStock > 0 && (
                 <ListGroup.Item>

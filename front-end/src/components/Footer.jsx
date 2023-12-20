@@ -8,7 +8,7 @@ function Footer() {
       <Container>
         <Row>
           <Col className='text-center py-3'>
-            <p>ProShop &copy; {currentYear}</p>
+            <p>Screen Splash &copy; {currentYear}</p>
           </Col>
         </Row>
       </Container>
