@@ -7,7 +7,7 @@ const ProductCarousel = () => {
     <div className='bg-primary mb-4'>
       {/* <img src={mdbgImage} alt="background" className="hero-bg" /> */}
       <div className='left'>
-        <h1>SplashScreen</h1>
+        <h1>Splash Screen</h1>
         <h2>iPhone & Macbook Wallpaper Packs</h2>
       </div>
       <div className='right'>
