@@ -1,10 +1,8 @@
 # SplashScreen.io
 
-SplashScreen is an open source MERN stack Ecommerce application. When entering the website, users are able to purchase various wallpapers that can be used on their computer and smartphone screens.
+Splash Screen is an open source MERN stack Ecommerce application. When entering the website, users are able to purchase various wallpapers that can be used on their computer and smartphone screens.
 
-## Project Brainstorm
-
-The Goal of this project is to build a fully working Ecommerce MERN application with payment integrations. The user of this app will be anyone who wants affordable computer and smartphone screen wallpapers. I am planning on learning the payment integration through a course created by [Brad Traversey](https://www.traversymedia.com/mern-stack-from-scratch) The main roadblock I see is developing a way for the end-user to only be able to download the wallpapers once the payment has been processed.
+![Home Screen](https://res.cloudinary.com/dtjasyr7k/image/upload/v1703174030/Screenshot_2023-12-21_at_07.53.19_xx2y6q.png)
 
 ## Technologies Used:
 
@@ -34,6 +32,10 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 - VSCode: https://code.visualstudio.com/
 - Figma: https://www.figma.com/
 - LucidApp: https://lucid.app/
+
+## Project Overview & Roadblocks
+
+The Goal of this project was to build a fully working Ecommerce MERN application with payment integrations. The user of this app will be anyone who wants affordable computer and smartphone screen wallpapers. I learned the payment integration through a course created by [Brad Traversey](https://www.traversymedia.com/mern-stack-from-scratch) The main roadblock I came across was for the download wallpaper button. It needed to know what products where in your order as well as if you had paid or not.
 
 ## User View Wireframes
 
@@ -75,7 +77,7 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 
 ## User Stories:
 
-- As a user I want to view the homepage and Browse the various Wallpapers SplashScreen has to offer.
+- As a user I want to view the homepage and Browse the various Wallpapers Splash Screen has to offer.
 - As a user I want to view a wallpaper and see a description, price, reviews and be able to add to cart.
 - As a user I want to click my shopping cart, where I can review my items, increase / decrease the item amounts, remove items, and proceed to checkout.
 - As a user I want to enter my shipping information.
@@ -91,7 +93,7 @@ The Goal of this project is to build a fully working Ecommerce MERN application 
 - Day 2: Starting MongoDB & Mongoose / Redux Toolkit & State Management
 - Day 3: Shopping Cart Functionality / Backend Authentication / Frontend Authentication
 - Day 4: Checkout Process / Admin Functionality
-- Day 5: Reviews / Deploy to Production
+- Day 5: Admin Functionality / Deploy to Production
 - Day 6: Testing
 - Day 7: Design & Project clean up
 
