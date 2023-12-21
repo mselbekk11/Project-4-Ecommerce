@@ -103,7 +103,7 @@ const OrderScreen = () => {
     }
   }
 
-  return isLoading ? <Loader /> : error ? <Message variant="danger">{error?.data?.message || error.error}</Message> : (
+  return isLoading ? <Loader /> : error ? <Message variant="danger" /> : (
     <>
       <Row>
           <Col md={8}>
