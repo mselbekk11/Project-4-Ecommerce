@@ -177,14 +177,14 @@ const OrderScreen = () => {
                           {item.qty} x ${item.price} = ${item.qty * item.price}
                         </Col>
                         <Col md={3}>
-                        {order.isPaid && item.name === 'Wallpaper 1' ? (
-                          <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 1</Button></a>
-                          ) : order.isPaid && item.name === 'Wallpaper 2' ? (
-                            <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 2</Button></a>
-                          ) : order.isPaid && item.name === 'Wallpaper 3' ? (
-                            <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 3</Button></a>
-                          ) : order.isPaid && item.name === 'Wallpaper 4' ?(
-                            <a href='https://collection.cloudinary.com/dtjasyr7k/4da9975fd8c3ab4b2a24712ff0a1c1da' target='blank'><Button>Download 4</Button></a>
+                        {order.isPaid && item.name === 'Influx Pack' ? (
+                          <a href='https://collection.cloudinary.com/dtjasyr7k/2951d3343042d36695f25049b24f18e3' target='blank'><Button>Download Wallpaper</Button></a>
+                          ) : order.isPaid && item.name === 'Space Collection Pack' ? (
+                            <a href='https://collection.cloudinary.com/dtjasyr7k/cfb67fd067385b62b779d4995fb48f6c' target='blank'><Button>Download Wallpaper</Button></a>
+                          ) : order.isPaid && item.name === 'Acrylic Paint Pack' ? (
+                            <a href='https://collection.cloudinary.com/dtjasyr7k/eb9f813de4559b5bfc038b8a17c1aa17' target='blank'><Button>Download Wallpaper</Button></a>
+                          ) : order.isPaid && item.name === 'Carbon Pack' ?(
+                            <a href='https://collection.cloudinary.com/dtjasyr7k/7d73e8ef9236d8846c2aaf81eaaccdd9' target='blank'><Button>Download Wallpaper</Button></a>
                           ) : (
                             <></>
                           )}
